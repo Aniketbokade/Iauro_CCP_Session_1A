@@ -1,0 +1,174 @@
+body {
+  width: 75%;
+  margin: 20px auto;
+  background-color: #E1E5EA;
+}
+
+/* Header bar */
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar {
+  background-color: white;
+  border-radius: 7px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+/* home1 */
+#home-1 {
+  margin: 40px auto 20px;
+  background-color: white;
+  padding: .7vw;
+  border-radius: 7px;
+}
+
+.image-1 {
+  float: left;
+  width: 40%;
+  border-radius: 100%;
+  margin-right: 1vw;
+  margin-top: .75vw;
+}
+
+.div-1 {
+  padding-right: 0;
+}
+
+.p-1 {
+  margin-top: 20px;
+  font-size: .85vw;
+  color: #787A91;
+}
+
+/* home2 */
+#home-2 {
+  text-align: left;
+  line-height: 2vw;
+}
+
+.img-2-1 {
+  margin-bottom: 15px;
+}
+
+.img-2-3 {
+  margin-top: 15px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.caption {
+  position: absolute;
+  left: 30px;
+  width: 75%;
+}
+
+.BL-1 {
+  bottom: 55%;
+}
+
+.BL-2 {
+  bottom: 1%;
+}
+
+.BL-3 {
+  bottom: 1%;
+}
+
+.p-2 {
+  font-size: 1vw;
+  color: white;
+  margin: 0;
+}
+
+.btn-sm {
+  margin-left: 10px;
+}
+
+.f-1 {
+  font-size: 2vw;
+}
+
+.f-2 {
+  font-size: 1vw;
+  line-height: 10px;
+}
+
+@media (min-width: 1000px) {
+  #home-2-mobile {
+    display: none;
+  }
+
+  #home-3-mobile {
+    display: none;
+  }
+}
+
+/* only for mobile */
+@media (max-width:1000px) {
+  .no-mobile {
+    display: none;
+  }
+
+  .p-1 {
+    font-size: 3.5vw;
+    margin-top: 2vw;
+  }
+
+  .image-1 {
+    width: 25%;
+    margin: 1vw;
+    margin-right: 2vw;
+  }
+
+  #home-2 {
+    display: none;
+  }
+
+  .move-up {
+    position: relative;
+    bottom: 250px;
+    left: 25px;
+  }
+
+  .f-1 {
+    font-size: 5vw;
+  }
+
+  .f-2 {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  /* home 3 mobile */
+  #home-3-mobile {
+    position: relative;
+    bottom: 240px;
+  }
+
+  .img-mob-2 {
+    border-radius: 5%;
+  }
+
+  .img-mob-3 {
+    float: left;
+    border-radius: 5%;
+    width: 25%;
+    margin: 1vw;
+    margin-right: 2vw;
+  }
+
+  .div-1 {
+    margin: 10px auto;
+  }
+}
